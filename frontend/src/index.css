@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family:'Netflix Sans';
+  src:url("./assets/fonts/NetflixSans-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family:'Netflix Sans';
+  src:url("./assets/fonts/NetflixSans-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family:'Netflix Sans';
+  src:url("./assets/fonts/NetflixSans-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family:'Netflix Sans';
+  src:url("./assets/fonts/NetflixSans-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  font-family: 'Netflix Sans',sans-serif;
+}
+
+.hero-bg {
+  background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url("../src/assets/homebg.jpg");
+}
+
+.hero-bg-two {
+  background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.9)),url("../src/assets/homebg.jpg");
+}
